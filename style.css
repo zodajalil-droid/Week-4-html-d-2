@@ -408,3 +408,185 @@
 
 }
 
+.box3 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 6%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.d1 h1 {
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+}
+
+.d1 h2 {
+  font-size: 28px;
+  color: #89ad3c;
+  margin: 5px 0 35px;
+}
+
+.d2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.d3,
+.d4,
+.d5,
+.d6,
+.d7,
+.d8,
+.d9,
+.d10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.d3 img,
+.d4 img,
+.d5 img,
+.d6 img,
+.d7 img,
+.d8 img,
+.d9 img,
+.d10 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.d3 h3,
+.d4 h3,
+.d5 h3,
+.d6 h3,
+.d7 h3,
+.d8 h3,
+.d9 h3,
+.d10 h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 15px 0 5px;
+}
+
+.d3 p,
+.d4 p,
+.d5 p,
+.d6 p,
+.d7 p,
+.d8 p,
+.d9 p,
+.d10 p {
+  font-size: 13px;
+  color: #999;
+  margin: 0 0 8px;
+}
+
+.d3 span,
+.d4 span,
+.d5 span,
+.d6 span,
+.d7 span,
+.d8 span,
+.d9 span,
+.d10 span {
+  color: #ff8500;
+  font-size: 14px;
+}
+
+.d3 small,
+.d4 small,
+.d5 small,
+.d6 small,
+.d7 small,
+.d8 small,
+.d9 small,
+.d10 small {
+  color: #ccc;
+}
+
+.d11 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.d11 button {
+  background-color: #89ad3c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 35px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* PHONE */
+
+@media (max-width: 768px) {
+
+  .box3 {
+    padding: 30px 20px;
+  }
+
+  .d1 h1 {
+    font-size: 21px;
+  }
+
+  .d1 h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .d2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 12px;
+  }
+
+  .d3 img,
+  .d4 img,
+  .d5 img,
+  .d6 img,
+  .d7 img,
+  .d8 img,
+  .d9 img,
+  .d10 img {
+    height: 140px;
+  }
+
+  .d3 h3,
+  .d4 h3,
+  .d5 h3,
+  .d6 h3,
+  .d7 h3,
+  .d8 h3,
+  .d9 h3,
+  .d10 h3 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .d3 p,
+  .d4 p,
+  .d5 p,
+  .d6 p,
+  .d7 p,
+  .d8 p,
+  .d9 p,
+  .d10 p {
+    font-size: 12px;
+  }
+
+  .d11 {
+    margin-top: 30px;
+  }
+
+}
+
